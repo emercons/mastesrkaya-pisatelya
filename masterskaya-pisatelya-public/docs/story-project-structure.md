@@ -16,6 +16,14 @@ The public `stories/_template/` folder is only a copy source.
 
 ## Required/private story structure
 
+## Capture-only vs active pipeline workspaces
+
+Mobile/voice capture may initially create a minimal story folder with only `00-input/`, `00-raw-idea/`, or a few note files. That state is allowed and should not be treated as a broken full workspace.
+
+Before specialist development begins, route the story through `005-приёмщик` or `003-диспетчер` as appropriate and converge the folder toward the active pipeline structure below. At that point, create or update `06-agent-queue/story-status.md` so the next ordinary ChatGPT session can resume from files instead of chat memory.
+
+Do not bulk-create empty canonical/handoff/draft/review files for a captured idea just to satisfy the template. Create operational files when they have real state to preserve.
+
 ```text
 ../knigi-content-private/stories/<story-slug>/00-input/raw-idea-from-chat.md
 ../knigi-content-private/stories/<story-slug>/00-input/author-notes.md

@@ -71,6 +71,8 @@ Never block normal mobile use merely because a richer runtime would be convenien
 4. Improve the algorithm: when author feedback reveals a recurring workflow, prompt, template, routing, state, or runtime problem, use `docs/framework-retrospective.md` and edit this public repository.
 5. Apply updated workflow to private stories opportunistically when they are resumed.
 
+Captured ideas may be lighter than a full story workspace. A private story folder with only `00-input/`, `00-raw-idea/`, or a few notes is an idea inbox, not a malformed pipeline run. Before specialist work, triage it through `005` or `003`, then add the needed canonical state, queue, handoffs, and `story-status.md`.
+
 ## Privacy boundary
 
 This repository is public. Treat every concrete story idea, handoff, canonical state, draft, review, and export as private by default.
