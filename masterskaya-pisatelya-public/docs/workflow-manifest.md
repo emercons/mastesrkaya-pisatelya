@@ -106,6 +106,7 @@ The following must agree with this manifest:
 - `docs/role-map.md`;
 - `prompts/00-workflow.md`;
 - `docs/story-project-structure.md`;
+- `docs/story-inventory-index.md`;
 - `docs/feedback-and-session-boundaries.md`;
 - `docs/agent-queue.md`;
 - `stories/_template/`;

@@ -78,11 +78,17 @@ Verify `150` does not equate literary final edit with route-specific publication
 
 Verify public operating rules and router reference `docs/story-isolation-contract.md` or enforce equivalent repository/slug/path checks.
 
-### 7. Post-manuscript boundary
+### 7. Story inventory index wiring
+
+Verify `docs/story-inventory-index.md` exists and that public operating rules explain when to read the private `../knigi-content-private/inventory/story-index.md`.
+
+The private index is derived navigation state. It must not be treated as canonical story state when it conflicts with a story's own `story-status.md`.
+
+### 8. Post-manuscript boundary
 
 Verify the writing workflow ends at `manuscript_complete` candidate/final literary checkpoint and points to `docs/post-manuscript-frameworks.md` rather than inventing publishing/SMM roles inside the writing chain.
 
-### 8. Internal links
+### 9. Internal links
 
 Check that all newly canonical docs referenced by README/AGENTS/workflow actually exist.
 
@@ -117,6 +123,8 @@ PASS | PASS_WITH_WARNINGS | FAIL
 ## Quality-gate findings
 
 ## Isolation/privacy findings
+
+## Story inventory index findings
 
 ## Post-manuscript-boundary findings
 

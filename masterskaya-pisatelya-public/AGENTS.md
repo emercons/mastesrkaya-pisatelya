@@ -41,6 +41,12 @@ Story isolation contract:
 docs/story-isolation-contract.md
 ```
 
+Story inventory index contract:
+
+```text
+docs/story-inventory-index.md
+```
+
 Quality gates:
 
 ```text
@@ -139,6 +145,8 @@ These shell checks are optional-runtime safety advice, not requirements for mobi
 8. Current story's `../knigi-content-private/stories/<story-slug>/01-canonical/canonical-story-state.md`
 9. Latest relevant handoff in `02-handoffs/`
 10. Relevant draft/review fragment
+
+For cross-story orientation or ambiguous `story-slug`, read `../knigi-content-private/inventory/story-index.md` before opening individual story folders.
 
 Do not read the whole repository unless the current task requires it.
 

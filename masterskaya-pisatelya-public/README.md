@@ -127,6 +127,7 @@ docs/workflow-integrity-check.md
 - `docs/workflow-integrity-check.md`
 - `docs/mobile-chatgpt-runtime.md`
 - `docs/story-isolation-contract.md`
+- `docs/story-inventory-index.md`
 - `docs/story-status.md`
 - `docs/quality-gates.md`
 - `docs/framework-retrospective.md`
