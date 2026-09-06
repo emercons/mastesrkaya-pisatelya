@@ -8,6 +8,8 @@ The private content repository should maintain a lightweight story index at:
 
 The index is a navigation aid for humans and new ChatGPT sessions. It does not replace per-story `story-status.md`, `agent-queue.md`, canonical state, or handoffs.
 
+The index covers story folders under `../knigi-content-private/stories/` only. Other private top-level workspaces may exist in the same repository; do not treat them as stories unless the user explicitly routes that material into `stories/<story-slug>/`.
+
 ## Purpose
 
 Use the index to answer three questions quickly:
